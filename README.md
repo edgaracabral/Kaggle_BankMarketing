@@ -4,7 +4,7 @@
 Disponível no Kaggle, esta base de dados é relativa a campanhas de marketing direto de uma instituição financeira Portuguesa, baseadas em chamadas telefônicas. Frequentemente, eram necssários mais de um contato com o mesmo cliente para avaliar se o produto (depósito bancário a prazo) seria ou não subscrito.
 
 Existem três conjuntos de dados:
-1) **bank-full.csv** com todos os exemplos (41188) e 17 variáveis de entrada, ordenados por data (de maio de 2008 à novembro de 2010).
+1) **bank-full.csv** com todos os exemplos (45211) e 17 variáveis de entrada, ordenados por data (de maio de 2008 à novembro de 2010).
 2) **bank.csv** com 10% dos exemplos (4521) e 17 variáveis de entrada, selecionados aleatoriamente do conjunto 1.
 3) **bank-names.txt** descrição dos dados e citação da referência.
 
