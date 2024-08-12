@@ -19,3 +19,38 @@ Fonte original dos dados:\
 Available at:
 * [pdf] http://hdl.handle.net/1822/14838
 * [bib] http://www3.dsi.uminho.pt/pcortez/bib/2011-esm-1.txt
+
+## Estrutura de Pastas no Google Drive
+Para se executar estes notebooks, é necessário criar a seguinte estrutura de pastas conforme o caminho indicado:
+* `/content/drive/MyDrive/Kaggle/Bank Marketing/00 library`
+* `/content/drive/MyDrive/Kaggle/Bank Marketing/01 original data`
+* `/content/drive/MyDrive/Kaggle/Bank Marketing/02 data prep`
+* `/content/drive/MyDrive/Kaggle/Bank Marketing/03 models`
+* `/content/drive/MyDrive/Kaggle/Bank Marketing/12 data prep`
+* `/content/drive/MyDrive/Kaggle/Bank Marketing/13 models`
+
+Na pasta '00 library', coloque o arquivo `pod_academy_functions.py`.
+
+Na pasta '01 original data', coloque os arquivos de dados do Kaggle: `bank.csv`, `bank-full.csv` e `bank-names.txt`.
+
+Ao executar-se o notebook '02_Pre_Processamento_de_Dados.ipynb', serão criados os seguintes arquivos na pasta '02 data prep':
+* abt_test.csv
+* abt_train.csv
+* prd_drop_nullvars_hktn.pkl
+* prd_fillna_hktn.pkl
+* prd_labelenc_hktn.pkl
+* prd_list_features_hktn.pkl
+* prd_onehotenc_hktn.pkl
+* prd_scaler_hktn.pkl
+
+Ao executar-se o notebook '03_Selecao_das_Features.ipynb', serão criados os seguintes arquivos na pasta '02 data prep':
+* abt_fs01_train.csv
+* abt_fs01_test.csv
+
+Ao executar-se o notebook '04_Construcao_dos_Modelos.ipynb', serão criados os seguintes arquivos na pasta '03 models':
+* best_model_dt.pkl
+* best_model_rl.pkl
+* best_model_rf.pkl
+* best_model_lightgbm.pkl
+
+Os notebooks da segunda iteração, '12_Pre_Processamento_de_Dados.ipynb', '13_Selecao_das_Features.ipynb' e '14_Construcao_dos_Modelos.ipynb', criarão os arquivos acima mencionados mas nas pastas '12 data prep' e '13 models'.
